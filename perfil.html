@@ -6,8 +6,7 @@
     <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="./assets/js/main.js" defer></script>
-    <title>Nome</title>
+    <title>Scooby | Perfil</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
@@ -41,7 +40,7 @@
         </div>
     </nav>
     
-    <div class="row col-12" style="height: 100vh;">
+    <div class="row col-12" style="height: 100vh">
         <div class="col-3 border-end px-0">
             <ul class="list-group rounded-0">
                 <li class="list-group-item border-end-0 border-top-0 px-4" style="cursor: pointer;"><img src="./assets/img/icons/carteira-de-identidade.png" alt="Ícone de informações pessoais" width="20px" class="mx-2">Informações pessoais</li>
@@ -51,6 +50,67 @@
                 <li class="list-group-item border-end-0 border-top-0 px-4" style="cursor: pointer;"><img src="./assets/img/icons/configuracoes.png" alt="Ícone configurações" width="20px" class="mx-2" id="config">Configurações</li>
             </ul>
         </div>
-        <div class="col-9"></div>
+        <div class="col-9">
+            <div class="border-bottom h-25 d-flex align-items-center">
+                <img class="mx-4" src="./assets/img/ft-perfil-exemplo.png" alt="Imagem de perfil do isiário" style="width: 150px; height: 150px;">
+                <h4 class="fs-1">Nome do Usuário</h4>
+            </div>
+            <!-- Informações pessoais -->
+            <div class="h-75 px-4">
+                <h5 class="fs-3 my-4">Informações pessoais</h5>
+                <div class="d-flex justify-content-between w-25">
+                    <span>Nome completo</span>
+                    <span class="text-secondary">Nome do Usuário</span>
+                </div>
+                <div class="d-flex justify-content-between w-25">
+                    <span>Email</span>
+                    <span class="text-secondary">email@gmail.com</span>
+                </div>
+                <div class="d-flex justify-content-between w-25">
+                    <span>Telefone</span>
+                    <span class="text-secondary">+55 (18)99675-2347</span>
+                </div>
+                <a class="btn btn-warning my-4" href="#" role="button">Alterar informações</a>
+            </div>
+        </div>
     </div>
+
+    <div class="bg-warning py-3">
+        <div class="container-fluid">
+            <div class="row col-10 mx-auto">
+                <div class="col-6">
+                    <div class="row">
+                        <a class="navbar-brand text-dark" href="./index.html">
+                            <img src="./assets/img/logoScooby.svg" alt="Logo da Scooby" width="70">
+                            Scooby
+                        </a>
+                    </div>
+                    <div class="row">
+                        <p>A Scooby Delivery é uma plataforma de pedidos online que conecta você aos melhores produtos e promoções, garantindo praticidade na escolha e rapidez na entrega até a sua porta.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="py-4" style="background-color: darkorange;">
+        <div class="container-fluid">
+            <div class="row col-10 mx-auto text-light">
+                <div class="col-6">
+                    <h5>Desenvolvido por:</h5>
+                    <ul>
+                        <li>Davi Takayuki Yajima</li>
+                        <li>Tiago Saraiva</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <img class="w-25 mb-3" src="./assets/img/logoIFSPhorizontal.png" alt="">
+                    <p class="my-0">Curso Técnico em Informática 1° ano</p>
+                    <p>Projeto de Web Design</p>
+                </div>
+            </div>
+            <div class="row col-10 mx-auto text-light">
+                <p class="text-center">©Copyright 2025</p>
+            </div>
+        </div>
+    </footer>
 </body>
