@@ -1,8 +1,0 @@
-.list-group-item:hover > img{
-    transform: scale(1.2);
-    transition: 100ms;
-}
-
-.list-group-item:hover #config{
-    transform: rotate(90deg) scale(1.2);
-}
