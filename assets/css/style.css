@@ -6,3 +6,51 @@
 .list-group-item:hover #config{
     transform: rotate(90deg) scale(1.2);
 }
+
+.carousel img{
+    border-radius: 10px;
+}
+
+.img-prom{
+    background-size: cover;
+    border-top-left-radius: 25px;
+}
+
+.card-p{
+    padding: 0;
+    border-top-left-radius: 27px;
+    background: linear-gradient(90deg, #3C1518 50%, white 0%);
+    background-size: 200%;
+    background-position: right;
+    transition: 200ms;
+    border: 1px rgb(187, 187, 187) solid;
+}
+
+.card-p:hover{
+    color: white;
+    transform: scale(1.05);
+    background-position: left;
+    box-shadow: 5px 5px 7px 0px rgb(156, 156, 156);
+}
+
+h2{
+    color: #3C1518;
+}
+
+.lista-ajuda{
+    list-style-type: none;
+}
+
+.lista-ajuda li{
+    font-size: 20px;
+    border-bottom: 1px rgb(206, 206, 206) solid;
+}
+
+.lista-ajuda a{
+    color: rgb(83, 83, 83);
+    text-decoration: none;
+}
+
+.lista-ajuda a:hover{
+    color: black;
+}
